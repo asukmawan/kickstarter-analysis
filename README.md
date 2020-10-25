@@ -1,7 +1,27 @@
-# An Analysis of Kickstarter Campaigns
-Performing analysis on Kickstarter data to uncover trends
----
+# Kickstarting with Excel
 
-test
-<img src="Chart1.png"></img>
+## Overview of Project
 
+### Purpose
+
+## Analysis and Challenges
+
+### Analysis of Outcomes Based on Launch Date
+
+### Analysis of Outcomes Based on Goals
+
+### Challenges and Difficulties Encountered
+
+## Results
+
+- What are two conclusions you can draw about the Outcomes based on Launch Date?
+
+<img src="Theater_Outcomes_vs_Launch.png"></img>
+
+- What can you conclude about the Outcomes based on Goals?
+
+<img src="Outcomes_vs_Goals.png"></img>
+
+- What are some limitations of this dataset?
+
+- What are some other possible tables and/or graphs that we could create?
