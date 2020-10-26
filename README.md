@@ -13,7 +13,7 @@ In this analysis, theater (specifically plays) Kickstarters were analyzed to see
 
 To assess the monthly trends from the Kickstarter data, a pivot table was created to compare the count of each campaign outcome (Successful, Failed, Cancelled), filtering to **Theatre** as the only the  `Parent Category` and `Years`:
 
-<img src="resources/Theater_Outcomes_vs_Launch-Table1.png"></img>
+
 
 To visualize these campaign outcomes based on their launch date, a line chart was used to highlight the frequency of each outcome occuring, which was then compared to the month the campaign was launched:
 <img src="resources/Theater_Outcomes_vs_Launch.png"></img>
