@@ -11,9 +11,9 @@ In this analysis, theater (specifically plays) Kickstarters were analyzed to see
 
 ### Outcomes Based on Launch Date
 
-To assess the monthly trends from the Kickstarter data, a pivot table was created to compare the count of each campaign outcome (Successful, Failed, Cancelled), filtering to **Theatre** as the only the  `Parent Category` and `Years`:
+To assess the monthly trends from the Kickstarter data, a pivot table was created to compare the count of each campaign outcome (Successful, Failed, Cancelled), filtering to **Theatre** as the only the  `Parent Category` and `Years` - to see the full excel file please see [Kickstarter_Challenge.zip](Kickstarter_Challenge.zip):
 
-
+<img src="resources/Theater_Outcomes_vs_Launch-Table1.png"></img>
 
 To visualize these campaign outcomes based on their launch date, a line chart was used to highlight the frequency of each outcome occuring, which was then compared to the month the campaign was launched:
 <img src="resources/Theater_Outcomes_vs_Launch.png"></img>
@@ -21,15 +21,38 @@ To visualize these campaign outcomes based on their launch date, a line chart wa
 
 ### Outcomes Based on Goals for Plays
 
-<img src="resources/Outcomes_vs_Goals.png"></img>
+In order to visualize the percentage of **successful**, **failed**, and **cancelled** plays, we first needed to get the frequency of occurances useing the `COUNTIFS()` function in excel. And to be able to group projects based on their goal amounts, we used the following goal ranges:
 
-To get the frequency of occurances the `COUNTIFS()` formula was used to find the corresponding count, to the set goal ranges. 
+* Less Than 1000
+* 1000 to 4999
+* 5000 to 9999
+* 10000 to 14999
+* 15000 to 19999
+* 20000 to 24999
+* 25000 to 29999
+* 30000 to 34999
+* 35000 to 39999
+* 40000 to 44999
+* 45000 to 49999
+* Greater than 50000
 
+These ranges were incorporated into the `COUNTIFS()` function, by making sure to only count the occurances with the criteria in the corresponding `Goal` range, its `outcome` (being either *successful/failed/cancelled*), and `subcategory` (being *plays*)
+
+*Example of `COUNTIFS()` function for successful plays that had a goal range of Less than 1000 - Cell B2:*
 ```
 =COUNTIFS(Kickstarter!D:D,"<1000",Kickstarter!F:F,"successful",Kickstarter!R:R,"plays")
 ```
 
-This formula 
+The resulting table:
+
+<img src="resources/Outcomes_vs_Goals-Table2.png"></img>
+
+A line graph was used to visualize the percentages found: 
+
+<img src="resources/Outcomes_vs_Goals.png"></img>
+
+
+
 
 ### Challenges and Difficulties Encountered
 
