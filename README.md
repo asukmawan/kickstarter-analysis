@@ -11,7 +11,9 @@ In this analysis, theater (specifically plays) Kickstarters were analyzed to see
 
 ### Outcomes Based on Launch Date
 
-To assess the monthly trends from the Kickstarter data, a pivot table was created to compare the count of each campaign outcome (Successful, Failed, Cancelled), filtering to **Theatre** as the only the  `Parent Category` and `Years` - to see the full excel file please see [Kickstarter_Challenge.zip](Kickstarter_Challenge.zip):
+To assess the monthly trends from the Kickstarter data, a pivot table was created to compare the count of each campaign outcome (Successful, Failed, Cancelled), filtering to **Theater** as the only the  `Parent Category` and `Years` - to see the full excel file please see [Kickstarter_Challenge.zip](Kickstarter_Challenge.zip):
+
+*Table 1 - Outcomes vs Launch Date*
 
 <img src="resources/Theater_Outcomes_vs_Launch-Table1.1.PNG"></img>
 
@@ -45,6 +47,8 @@ These ranges were incorporated into the `COUNTIFS()` function, by making sure to
 
 The resulting table:
 
+### *Table 2 - Outcomes vs Goals*
+
 <img src="resources/Outcomes_vs_Goals-Table2.png"></img>
 
 A line graph was used to visualize the percentages found: 
@@ -66,17 +70,13 @@ Where `J2` is the cell reference of the UNIX timestamp to be converted, which is
 
 Another challenge was encountered during the creation of the pivot table to group the theater outcomes count vs. launch date. There were difficulties in displaying the date by month, as the date field parses additional date fields - 'Quarters' and 'Years' - but no field for 'Month' could be found. To be able to display the pivot table by Month, the Years and Quarters field had to be removed from the rows area of the pivot table and the months were shown.
 
-## Results
+## Results and Conclusions
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+Based on the resulting analysis, the highest amount of successes for launching theater Kickstarters could be found in the Month of May. This may be due to the increased total kickstarters during this month, but as a percentage of total kickstarters it has the highest rate of 67% [(111 successes of 166 total kickstarters in May)](#outcomes-based-on-launch-date).
 
-The number of successful outcomes for plays that have Most successful in May
+On the other hand, December has the lowest frequency and the lowest rate of successes out of all the months of the year. An assumption could be that leading up to the Christmas months, Kickstarters may not be as successful as people are more likely using their disposable income on christmas presents instead of funding project they won't see the result of until much into the future, in the chance the projected reaches its target and begins production.
 
-no cancelations in October
-
-Avoid launching around wintertime - most likely people are more likely using their disposable income on christmas presents instead of funding project they won't see the 
-
-- What can you conclude about the Outcomes based on Goals?
+As for setting a Kickstarter Goal, it can be concluded that as a goal is increased, the chances of success decreases, and failure increases. There is an increase in success rate in the 35,000 to 39,999, and 40,000 to 44,999 range, but the total projects that were successful at these ranges were 4 and 2 respectively. [Please see Table 2](table_2_-_outcomes_vs_goals)
 
 
 ### Limitations of this dataset
