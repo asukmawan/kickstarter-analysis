@@ -76,20 +76,23 @@ Based on the resulting analysis, the highest amount of successes for launching t
 
 On the other hand, December has the lowest frequency and the lowest rate of successes out of all the months of the year. An assumption could be that leading up to the Christmas months, Kickstarters may not be as successful as people are more likely using their disposable income on christmas presents instead of funding project they won't see the result of until much into the future, in the chance the projected reaches its target and begins production.
 
-As for setting a Kickstarter Goal, it can be concluded that as a goal is increased, the chances of success decreases, and failure increases. There is an increase in success rate in the 35,000 to 39,999, and 40,000 to 44,999 range, but the total projects that were successful at these ranges were 4 and 2 respectively. [Please see Table 2](table_2_-_outcomes_vs_goals)
+As for setting a Kickstarter Goal, it can be concluded that as a goal is increased, the chances of success decreases, and failure increases. There is an increase in success rate in the 35,000 to 39,999, and 40,000 to 44,999 range, but the total projects that were successful at these ranges were [4 and 2 (out of 6 and 3 total projects)](#outcomes-based-on-goals-for-plays) respectively which is not enough data. 
 
 
 ### Limitations of this dataset
-- What are some limitations of this dataset?
 
-Compare with other crowdfunding platforms like [Indiegogo](https://www.indiegogo.com/), and see if the data supports the same successes as crowdfunding with Kickstarter
+Some limitations of this Kickstarter dataset is that it is somewhat outdated. The latest datapoint is for January 2017, and to make relevant decisions for today's environment, we should include the most up-to-date datapoints.
 
-Duration of the kickstarter could impact the success/failure of the campaign. Some projects have a 
+While there is a limited sample size (4113 datapoint), there is also a lack of other useful data we could use to provide a more robust analysis. Such data as knowing the subgenre of play (ie. comedy, tragedy, historical, etc.). Knowing the duration of the kickstarter funding campaign, could tell us what is the best amount of time to leave the campaign open for funding. Lastly, if a project has pledge rewards and what tiers are backers pledging to the project most.
 
-- What are some other possible tables and/or graphs that we could create?
 
-Regression analysis on fund and success of Kickstarter
+We could also compare with Kickstarter with other crowdfunding platforms like [Indiegogo](https://www.indiegogo.com/), and see if the data supports the same successes as crowdfunding with Kickstarter
 
-Check for trends by year and not just by month. Yearly trends can change. Need to make sure that her style of play is popular in recent years
+
+### Recommendations
+
+While we looked at the trends of the frequency of successes and failures month per month, other possible tables and/or graphs could be created in seeing if there are trends by year. Theatre could have been very popular at a certain period of time, but as of recent years its popularity could have decreased, making plays a much harder campaign to fund.
+
+An additional recommended data analysis that could be looked at would be seeing the successes and failures by region. Depending on which region the play will be launched, the success rate should highlight which region plays are most successful. For example, 
 
 Regional successes. Which plays are most successful in which region. If she's in GB, but the play she wants to make is more successful in the US, she should have it done in the highest success region
